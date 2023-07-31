@@ -1,0 +1,14 @@
+.completed {
+  color: #519c66;
+  background-color: #32936f1f;
+  padding: 4px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.pending {
+  color: #cc5f5f;
+  background-color: #cc5f5f18;
+  padding: 4px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}

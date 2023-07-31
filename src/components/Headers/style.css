@@ -1,0 +1,113 @@
+.headers {
+  background-color: #fff;
+  color: #45464e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000000;
+  padding: 30px 30px 30px 350px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headers.conversation {
+  padding: 20px 30px 30px 140px;
+  z-index: 1000000;
+}
+.route {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+.headers .heading {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.headers .profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #1c1d22;
+  justify-content: flex-end;
+}
+.headers .profile .bg {
+  background-color: #fef5ea;
+  padding: 10px;
+  gap: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: none;
+}
+
+.icon {
+  color: #5570f1;
+  width: 20px;
+  cursor: pointer;
+}
+.headers .icon-home {
+  color: #5570f1;
+  width: 22px;
+}
+/* Styles for small devices (up to 767px) */
+@media screen and (max-width: 767px) {
+  .headers {
+    padding: 30px;
+  }
+  .headers .profile .bg {
+    display: none;
+  }
+  .headers.conversation {
+    padding: 0px;
+    display: flex;
+    padding: 15px;
+  }
+  .headers .heading {
+    display: none;
+  }
+}
+.ham-bugar {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .headers {
+    padding: 30px;
+  }
+  .headers .profile .bg {
+    display: none;
+  }
+  .headers.conversation {
+    padding: 0px;
+    display: flex;
+    padding: 15px;
+  }
+  .headers .heading {
+    display: none;
+  }
+  .ham-bugar {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .headers {
+    padding: 30px;
+  }
+  .headers .profile .bg {
+    display: none;
+  }
+  .headers.conversation {
+    padding: 0px;
+    display: flex;
+    padding: 15px;
+  }
+  .headers .heading {
+    display: none;
+  }
+}

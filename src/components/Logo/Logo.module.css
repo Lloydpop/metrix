@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo .header {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

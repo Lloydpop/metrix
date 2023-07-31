@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contain {
+  background-color: #fff;
+  padding: 30px;
+  padding-bottom: 30px;
+}
+.amount {
+  margin-bottom: 40px;
+  color: #a6a8b1;
+  font-weight: 400;
+  font-size: 11px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 15px);
+  gap: 65px;
+  position: relative;
+}
+.barchart {
+  height: 90%;
+  background-color: #eef0fa;
+  border-radius: 50px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.inner2 {
+  background-color: #5570f1;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+
+  transition: 2s;
+}
+.date {
+  font-size: 11px;
+
+  color: #a6a8b1;
+}
+.flexer {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.dropdown {
+  background-color: #556ff12f;
+  color: #5570f1;
+  padding: 6px;
+  align-items: center;
+  border-radius: 10px;
+  height: 35px;
+  width: 100px;
+  justify-content: center;
+}
+.dropdown .icon {
+  width: 13px;
+  height: 13px;
+  font-style: 800;
+}
+.icon2 {
+  color: #000;
+}
+.drop-container {
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Styles for small devices (up to 767px) */
+@media screen and (max-width: 767px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 13px);
+    gap: 30px;
+    position: relative;
+  }
+  .drop-container {
+    flex-direction: column;
+  }
+  .flexer {
+    display: flex;
+  }
+}
+
+/* Styles for medium devices (from 768px to 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Your CSS styles for medium devices go here */
+}
+
+/* Styles for large devices (992px and above) */
+@media screen and (min-width: 992px) {
+  /* Your CSS styles for large devices go here */
+}

@@ -1,0 +1,99 @@
+.navbar {
+  margin-top: 40px;
+}
+.navbar .links {
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.navbar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #45464e;
+}
+.navbar .link .tip {
+  display: block;
+  width: 30px;
+  font-size: 12px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffcc91;
+  color: #1c1d22;
+}
+.nav-footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 30px;
+}
+.nav-footer h3,
+.nav-footer p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.nav-footer p {
+  color: #6e7079;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.contact {
+  display: flex;
+  background-color: #45464e1f;
+  padding: 7px;
+  border-radius: 10px;
+  width: 230px;
+  gap: 7px;
+  color: #1c1d22;
+  margin-top: 40px;
+}
+.gift-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.gift {
+  background-color: #ffcc912a;
+  margin-top: 10px;
+
+  padding: 10px;
+}
+
+.logout .icon {
+  color: red;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+.upgrade {
+  display: flex;
+}
+.upgrade .icon {
+  width: 15px;
+  height: 15px;
+  color: #6e7079;
+}
+.logout {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 7px;
+  cursor: pointer;
+}
+.logout p {
+  font-size: 14px;
+  margin-top: -5px;
+  color: red;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.mt {
+  padding-top: 10px;
+}

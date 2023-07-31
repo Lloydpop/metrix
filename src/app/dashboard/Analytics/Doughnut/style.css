@@ -1,0 +1,33 @@
+.doughnut-container {
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 10px;
+}
+.gap {
+  margin-bottom: 35px;
+}
+.dough {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+}
+.labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.labels .content {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+.labels span {
+  font-size: 11px;
+  color: #a6a8b1;
+}
+.inner {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

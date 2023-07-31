@@ -1,0 +1,102 @@
+import { Graph, TwoUsers, Bag } from "react-iconly";
+import iphone from "../.././../public/static/Rectangle 3.png";
+import iphone2 from "../.././../public/static/Rec3.png";
+export const cardData = [
+  {
+    icon: Graph,
+    subtitle: "Volume",
+    title: "Sales",
+    estimate: "₦4,000,000.00",
+    estimatePercent: "450",
+    interest: "+20.00%",
+    color: "#5570F1",
+    iconColor: "#556ff121",
+  },
+  {
+    icon: TwoUsers,
+    subtitle: "Customers",
+    title: "Active",
+    estimate: "1,235",
+    estimatePercent: "1,190",
+    interest: "85%",
+    interest2: "+15.80%",
+    color: "#130F26",
+    iconColor: "#ffcc9121",
+  },
+  {
+    icon: Bag,
+    subtitle: "Pending",
+    title: "All Orders",
+    title2: "Completed",
+    estimate: "450",
+    estimate2: "400",
+    estimatePercent: "5",
+    color: "#130F26",
+    iconColor: "#ffcc9121",
+  },
+];
+export const listData = [
+  {
+    brand: "Iphone 13",
+    price: "₦730,000.00 X 1",
+    status: "completed",
+    date: "12th july 2023",
+    img: iphone2,
+  },
+  {
+    brand: "Iphone 13",
+    price: "₦730,000.00 X 1",
+    status: "completed",
+    date: "12th july 2023",
+    img: iphone,
+  },
+  {
+    brand: "Iphone 13",
+    price: "₦730,000.00 X 1",
+    status: "completed",
+    date: "12th july 2023",
+    img: iphone2,
+  },
+  {
+    brand: "Iphone 13",
+    price: "₦730,000.00 X 1",
+    status: "pending",
+    date: "12th july 2023",
+    img: iphone2,
+  },
+  {
+    brand: "Iphone 13",
+    price: "₦730,000.00 X 1",
+    status: "pending",
+    date: "12th july 2023",
+    img: iphone,
+  },
+  {
+    brand: "Iphone 13",
+    price: "₦730,000.00 X 1",
+    status: "completed",
+    date: "12th july 2023",
+    img: iphone,
+  },
+  {
+    brand: "Iphone 13",
+    price: "₦730,000.00 X 1",
+    status: "completed",
+    date: "12th july 2023",
+    img: iphone,
+  },
+  {
+    brand: "Iphone 13",
+    price: "₦730,000.00 X 1",
+    status: "pending",
+    date: "12th july 2023",
+    img: iphone2,
+  },
+  {
+    brand: "Iphone 13",
+    price: "₦730,000.00 X 1",
+    status: "completed",
+    date: "12th july 2023",
+    img: iphone,
+  },
+];
