@@ -1,5 +1,5 @@
 import { Graph, TwoUsers, Bag } from "react-iconly";
-import iphone from "../.././../public/static/Rectangle 3.png";
+import iphone from "../.././../public/static/rectangle.png";
 import iphone2 from "../.././../public/static/rec3.png";
 export const cardData = [
   {
