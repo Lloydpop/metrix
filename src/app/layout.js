@@ -8,10 +8,6 @@ const poppins = Montserrat({
   subsets: ["latin"],
 });
 import { usePathname } from "next/navigation";
-export const metadata = {
-  title: "metrix test app",
-  description: "A test application",
-};
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
