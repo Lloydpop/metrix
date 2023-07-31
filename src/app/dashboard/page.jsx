@@ -13,7 +13,7 @@ const DashBoard = () => {
     <div>
       <div className="card-container">
         {cardData?.map((card) => (
-          <Card card={card}></Card>
+          <Card key={card} card={card}></Card>
         ))}
       </div>
       <div className="analytics">

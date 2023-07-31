@@ -1,12 +1,13 @@
 import { ChevronDown } from "react-iconly";
 
-const Card = ({ children, card, title, bg = "#fff", title_col }) => {
+const Card = ({ children, card, title, bg = "#fff", title_col, key }) => {
   return (
     <div
       className="card "
       style={{
         backgroundColor: card?.bg,
       }}
+      key={key}
     >
       <div className="icon-container">
         {card?.icon === undefined || null ? (
