@@ -3,7 +3,7 @@ import React from "react";
 import "./style.css";
 import { ChevronDown } from "react-iconly";
 import Image from "next/image";
-import Profile from "../../../public/static/profile 1.png";
+import Profile from "../../../public/static/profile.png";
 import { HomeIcon, BellIcon, Bars3Icon } from "@heroicons/react/24/solid";
 import { usePathname } from "next/navigation";
 import { XMarkIcon } from "@heroicons/react/24/outline";
